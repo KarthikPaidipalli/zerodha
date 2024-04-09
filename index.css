@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 2px #eee;
 }
 .bottom{
     width: 100%;
@@ -13,4 +18,20 @@
 .container{
     height: 100vh;
     width: 100%;
+}
+.topright{
+    margin: 10px;
+}
+.topright:hover{
+    cursor: pointer;
+}
+.button-signup{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 130px;
+}
+.button-signup:hover{
+    cursor: pointer;
 }
